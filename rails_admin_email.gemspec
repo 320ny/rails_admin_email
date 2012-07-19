@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = RailsAdminEmail::VERSION
   s.authors     = ["Ryan Bennick"]
   s.email       = ["ryan@320ny.com"]
-  s.homepage    = "https://github.com/bennick/rails_admin_email.git"
+  s.homepage    = "https://github.com/320ny/rails_admin_email.git"
   s.summary     = "Enables an Email Action on a model instance in Rails Admin"
   s.description = %q{ RailsAdminEmail is an extention to the popular Ruby on Rails admin interface, Rails Admin.
   					  This gem allows you to include an email action on any model instance that meets certain criteria.

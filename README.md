@@ -9,7 +9,7 @@ Developed by [320ny](http://320ny.com)
 In your `Gemfile`, add the following dependencies:
 	
 	gem 'rails_admin' # If not included already
-	gem 'rails_admin_email', , :git => "git://github.com/TBD"
+	gem 'rails_admin_email', , :git => "https://github.com/320ny/rails_admin_email.git"
 
 Run:
 
