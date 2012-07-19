@@ -40,13 +40,13 @@ Restart you server and you should be good to go.
 
 When a model in Rails Admin uses the email functionality an email form will be display with the following fields:
 
-* TO # Will autopotulate with `model.email` if the model has an email field
+* To # Will autopotulate with `model.email` if the model has an email field
 * From # Will autopotulate with the email of the current admin user
 * CC # Same as From
 * Subject # Blank
 * Message # Blank
 
-== License
+## License
 
 Rails Admin Email is released under the MIT license:
 
