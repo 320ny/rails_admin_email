@@ -38,13 +38,20 @@ Restart you server and you should be good to go.
 
 ## Default Behavior
 
-When a model in Rails Admin uses the email functionality an email form will be display with the following fields:
+When a model in Rails Admin uses the email functionality an email form will display with the following fields:
 
 * To # Will autopotulate with `model.email` if the model has an email field
 * From # Will autopotulate with the email of the current admin user
 * CC # Same as From
 * Subject # Blank
 * Message # Blank
+
+## Screenshots
+![Email Action View](https://github.com/320ny/rails_admin_email/raw/master/screenshots/email_action.png "email action view")
+
+## To Do
+
+Testing
 
 ## License
 
