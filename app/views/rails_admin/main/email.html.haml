@@ -1,0 +1,27 @@
+= form_tag rails_admin.email_path(@object.class.to_s.downcase, @object.id) do |f|
+    = hidden_field :email, :from, :value =>  current_admin.email
+    %legend= "Send Email"
+    %fieldset
+        .control-group
+            = label_tag 'email[to]', 'To:', :class => "control-label"
+            .controls
+                = text_field_tag 'email[to]', "#{@object.email if @object.respond_to?(:email)}"
+        .control-group
+            = label_tag 'email[from]', 'From:', :class => "control-label"
+            .controls
+                = text_field_tag 'email[from]', "#{_current_user.email}"
+        .control-group
+            = label_tag 'email[cc]', 'CC:', :class => "control-label"
+            .controls
+                = text_field_tag 'email[cc]', "#{_current_user.email}"
+        .control-group
+            = label_tag 'email[subject]', 'Subject:', :class => "control-label"
+            .controls
+                = text_field_tag 'email[subject]', "", :class => "span8"
+        .control-group
+            = label_tag 'email[message]', 'Message:', :class => "control-label"
+            .controls
+                = text_area_tag "email[message]", "", :class => "span8", :rows => 10
+        .control-group
+            .controls
+                = submit_tag "Send", :disable_with => "Sending...", :class => "btn btn-primary"

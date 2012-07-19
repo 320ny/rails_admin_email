@@ -1,0 +1,11 @@
+
+en:
+  admin:
+    actions:
+      email:
+        title: "Email"
+        menu: "Email"
+        breadcrumb: "Email"
+        link: "Email"
+        bulk_link: "Email %{model_label_plural}"
+        done: "Emailed"
