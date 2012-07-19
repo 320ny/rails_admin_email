@@ -8,4 +8,4 @@
     	config.include_models = ['AwesomeModel', 'SuperCoolUser']
   	end
   	```
- * Textarea defaults to WUSIWUG ckeditor
+ssh* Textarea defaults to WUSIWUG ckeditor

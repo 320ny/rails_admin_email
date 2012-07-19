@@ -51,7 +51,16 @@ When a model in Rails Admin uses the email functionality an email form will disp
 
 ## To Do
 
-Testing
+* Testing
+* Add ability to configure To, From, and CC defaults for each model
+* Email templates
+** Allow user to select from a list of templates. 
+** Once selected the template will populate the Subject and Message fields
+** Templates will be derived from another model in the DB
+** Template base model and default fields can be configured for each model that employes rails_admin_email
+* Revise email UI
+* Ability to send email to multiple email addresses
+
 
 ## License
 
