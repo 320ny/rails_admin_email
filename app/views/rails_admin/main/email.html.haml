@@ -21,7 +21,7 @@
         .control-group
             = label_tag 'email[message]', 'Message:', :class => "control-label"
             .controls
-                = text_area_tag "email[message]", "", :class => "span8", :rows => 10
+                = text_area_tag "email[message]", "", :class => "span8", :rows => 10, "data-richtext" => "ckeditor", "data-options" => "{\"jspath\":\" /assets/ckeditor/ckeditor.js\",\"base_location\":\"/assets/ckeditor/\",\"options\":{\"customConfig\":\"/assets/ckeditor/config.js\"}}"
         .control-group
             .controls
                 = submit_tag "Send", :disable_with => "Sending...", :class => "btn btn-primary"
